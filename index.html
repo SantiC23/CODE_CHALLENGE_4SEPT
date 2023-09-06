@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad HTTP con Fetch</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form  id="registration-form" action="https://jsonplaceholder.typicode.com/users" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="user_name" />
+        <br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="user_apellido" />
+        <br><br>
+
+        <label for="FechaNac">Fecha de Nacimiento:</label>
+        <input type="date" id="FechaNac" name="user_fecha_nacimiento" />
+        <br><br>
+
+        <button type="submit">Envíe su mensaje</button>
+    </form>
+</body>
+</html>
